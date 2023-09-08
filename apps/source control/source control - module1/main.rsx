@@ -13,7 +13,7 @@
       backgroundColor="white"
       isGlobalWidgetContainer={true}
     >
-      <Text id="text2" value="# patch 111" verticalAlign="center" />
+      <Text id="text2" value="# patch 222" verticalAlign="center" />
       <Text id="text1" value="# THIS IS MY MODULE" verticalAlign="center" />
       <Image
         id="image1"
