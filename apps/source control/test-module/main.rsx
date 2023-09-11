@@ -1,0 +1,19 @@
+<App>
+  <Frame
+    id="$main"
+    enableFullBleed={false}
+    isHiddenOnDesktop={false}
+    isHiddenOnMobile={false}
+    paddingType="normal"
+    sticky={null}
+    type="main"
+  >
+    <ModuleContainerWidget
+      id="moduleContainer"
+      backgroundColor="white"
+      isGlobalWidgetContainer={true}
+    >
+      <Text id="text1" value="# test module" verticalAlign="center" />
+    </ModuleContainerWidget>
+  </Frame>
+</App>
