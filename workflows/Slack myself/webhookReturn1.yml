@@ -1,0 +1,119 @@
+id: webhookReturn1
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: |-
+        const generateReturn = () => {
+            const status = () => {
+              try {
+                return 200
+              } catch {
+                return 200
+              }
+            }
+          const body = () => {
+            try {
+              return {
+          response: "THIS IS THEWEBHOOK RESPONSE"
+        }
+            } catch {
+              return {'error': true, 'messsage': 'there was a problem parsing the JSON body of webhookReturn1'}
+            }
+          }
+          return {status: status(), body: body() }
+          }
+          return generateReturn()
+          
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - _additionalScope: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - editorMode: sql
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return formatDataAsArray(data)
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-08-21T23:25:29.426Z
+blockData:
+  top: 144
+  left: 608
+  uuid: dceb2569-8713-4b6c-9024-a9a2881dc6ef
+  options:
+    body: |-
+      {
+        response: "THIS IS THEWEBHOOK RESPONSE"
+      }
+    status: '200'
+  pluginId: webhookReturn1
+  blockType: webhookReturn
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  retryPanelOpen: false
+  incomingOnSuccessEdges:
+    - a7a27f65-260c-401d-b6ce-2a81fe85c411
