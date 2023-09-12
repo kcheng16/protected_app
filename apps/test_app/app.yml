@@ -1,0 +1,10 @@
+version: 43.0.9
+pageUuid: 8ab179e0-51b9-11ee-a026-936b8a90c254
+appTemplate:
+  experimentalPerfFeatures:
+    object:
+      serverDepGraphEnabled: false
+      useRuntimeV2: true
+      runtimeV2OptOut: false
+  version: 3.6.7
+  experimentalDataTabEnabled: true
