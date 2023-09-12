@@ -11,7 +11,7 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: '# Version 2'
+    - value: '# Version 3'
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
