@@ -6,6 +6,13 @@
     "height": 3,
     "width": 2
   },
+  "image2": {
+    "container": "moduleContainer",
+    "row": 4,
+    "col": 5,
+    "height": 3,
+    "width": 2
+  },
   "moduleContainer": {
     "height": 12,
     "width": 12
