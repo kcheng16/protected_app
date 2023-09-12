@@ -6,6 +6,7 @@ resourceDisplayName: Slack Integration
 template:
   ordered:
     - queryRefreshTime: ''
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - channel: ''

@@ -5,6 +5,7 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false

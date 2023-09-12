@@ -6,6 +6,7 @@ resourceDisplayName: onboarding_db
 template:
   ordered:
     - queryRefreshTime: ''
+    - streamResponse: false
     - records: ''
     - lastReceivedFromResourceAt: null
     - databasePasswordOverride: ''
@@ -108,5 +109,5 @@ blockData:
   isMinimized: true
   resourceName: onboarding_db
   retryPanelOpen: false
-  responsePanelState: closed
+  responsePanelState: loading
   incomingOnSuccessEdges: []
