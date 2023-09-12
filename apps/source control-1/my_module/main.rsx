@@ -19,6 +19,11 @@
         horizontalAlign="center"
         src="https://placekitten.com/400/300"
       />
+      <Image
+        id="image2"
+        horizontalAlign="center"
+        src="https://placekitten.com/400/300"
+      />
     </ModuleContainerWidget>
   </Frame>
 </App>
