@@ -1,14 +1,14 @@
 {
   "image1": {
     "container": "moduleContainer",
-    "row": 4,
+    "row": 4.8,
     "col": 3,
     "height": 3,
     "width": 2
   },
   "image2": {
     "container": "moduleContainer",
-    "row": 4,
+    "row": 4.8,
     "col": 5,
     "height": 3,
     "width": 2
