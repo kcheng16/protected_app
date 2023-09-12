@@ -1,0 +1,34 @@
+id: image1
+type: widget
+subtype: ImageWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - flipVertical: false
+    - src: https://placekitten.com/400/300
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: cover
+    - flipHorizontal: false
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: ''
+    - events:
+        ordered: []
+    - srcType: src
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 3.1999999999999997
+    col: 1
+    height: 3
+    width: 4
+createdAt: 2023-09-12T18:04:37.831Z
