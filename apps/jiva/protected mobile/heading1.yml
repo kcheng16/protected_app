@@ -1,0 +1,16 @@
+id: heading1
+type: widget
+subtype: RNHeadingWidget
+template:
+  value: '{{ current_user.firstName || ''User'' }}'
+  size: h1
+  width: full
+  textAlign: left
+position2:
+  position2:
+    container: container3
+mobileAppPosition:
+  object:
+    ordinal: 0
+createdAt: 2023-09-14T18:08:14.076Z
+screen: screen2

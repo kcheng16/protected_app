@@ -1,0 +1,12 @@
+version: 43.0.9
+pageUuid: ac1431ba-5329-11ee-8b75-23c7405399b5
+appTemplate:
+  experimentalPerfFeatures:
+    object:
+      useRuntimeV2: true
+      runtimeV2OptOut: false
+  rootScreen: tabscreen
+  isMobileApp: true
+  version: 3.10.1
+  multiScreenMobileApp: true
+  experimentalDataTabEnabled: true

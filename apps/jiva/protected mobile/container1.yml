@@ -1,0 +1,23 @@
+id: container1
+type: widget
+subtype: RNContainerWidget
+template:
+  align: flex-start
+  width: full
+  widthGrowFactor: 1
+  layout: row
+  cornerType: square
+  justify: flex-start
+  padding:
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+  gap: 8
+position2:
+  position2: {}
+mobileAppPosition:
+  object:
+    ordinal: 0
+createdAt: 2023-09-14T18:08:14.076Z
+screen: screen2
