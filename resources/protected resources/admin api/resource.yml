@@ -12,7 +12,7 @@ options:
   auth0_custom_audience: ''
   auth0_domain: ''
   authentication: ''
-  baseURL: https://www.httpbin.org
+  baseURL: http://www.httpbin.org
   basic_password: ''
   basic_username: ''
   bearer_token: ''
