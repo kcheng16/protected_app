@@ -11,7 +11,7 @@ options:
   auth0_custom_audience: ''
   auth0_domain: ''
   authentication: ''
-  baseURL: ''
+  baseURL: https://www.httpbin.org
   basic_username: ''
   cookiesToForward: []
   digest_server_auth_header_response: ''
