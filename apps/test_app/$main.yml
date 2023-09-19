@@ -1,0 +1,12 @@
+id: $main
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: main
+    - sticky: null
+    - isHiddenOnDesktop: false
+    - isHiddenOnMobile: false
+style:
+  ordered: []
+createdAt: 2023-09-12T22:13:05.996Z

@@ -1,0 +1,23 @@
+id: moduleContainer
+type: widget
+subtype: ModuleContainerWidget
+template:
+  ordered:
+    - heightType: fixed
+    - spinWhenChildrenAreFetching: true
+    - showBorder: true
+    - showDropShadow: true
+    - isGlobalWidgetContainer: true
+    - backgroundColor: white
+    - title: ''
+    - overflowType: hidden
+    - disabled: ''
+position2:
+  position2:
+    height: 12
+    width: 12
+mobilePosition2:
+  position2:
+    height: 12
+    width: 12
+createdAt: 2023-09-12T22:13:52.563Z
