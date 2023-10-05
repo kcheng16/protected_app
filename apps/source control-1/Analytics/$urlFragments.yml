@@ -1,0 +1,10 @@
+id: $urlFragments
+type: setting
+subtype: UrlFragments
+template:
+  ordered:
+    - value:
+        ordered: []
+style:
+  ordered: []
+createdAt: 2023-10-04T21:48:03.992Z

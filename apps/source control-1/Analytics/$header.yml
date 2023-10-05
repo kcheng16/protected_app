@@ -1,0 +1,22 @@
+id: $header
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - paddingType: normal
+    - sticky: false
+    - style:
+        ordered:
+          - border-color: ''
+          - primary-surface: ''
+          - accent-foreground: ''
+          - primary-foreground: ''
+          - accent-background: ''
+          - border-radius: ''
+          - secondary-surface: ''
+          - primary-text: ''
+          - primary-background: ''
+    - type: header
+style:
+  ordered: []
+createdAt: 2023-10-04T21:48:03.992Z
