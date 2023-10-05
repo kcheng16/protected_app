@@ -1,0 +1,139 @@
+id: chart1
+uuid: 6715553d-8acc-4064-a7b8-035ecbbceef2
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered:
+          - '0':
+              ordered:
+                - label: sales
+                - datasource: |-
+                    {{formatDataAsObject([{
+                      "region" : "East",
+                      "sales": 3700,
+                      "spend": 4000
+                    }, {
+                      "region" : "West",
+                      "sales": 6000,
+                      "spend": 3895
+                    }, {
+                      "region" : "South",
+                      "sales": 4500,
+                      "spend": 5500
+                    }, {
+                      "region" : "Central",
+                      "sales": 5230,
+                      "spend": 4200
+                    }])['sales']}}
+                - chartType: null
+                - aggregationType: sum
+                - color: '#033663'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+          - '1':
+              ordered:
+                - label: spend
+                - datasource: |-
+                    {{formatDataAsObject([{
+                      "region" : "East",
+                      "sales": 3700,
+                      "spend": 4000
+                    }, {
+                      "region" : "West",
+                      "sales": 6000,
+                      "spend": 3895
+                    }, {
+                      "region" : "South",
+                      "sales": 4500,
+                      "spend": 5500
+                    }, {
+                      "region" : "Central",
+                      "sales": 5230,
+                      "spend": 4200
+                    }])['spend']}}
+                - chartType: null
+                - aggregationType: sum
+                - color: '#247BC7'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+    - isDataTemplateDirty: false
+    - datasource: ''
+    - isJsonTemplateDirty: false
+    - groupByDropdown: ''
+    - datasourceInputMode: javascript
+    - datasourceDataType: array
+    - layout: ''
+    - xAxisDropdown: region
+    - data: ''
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: true
+    - datasourceJS: |-
+        [{
+          "region" : "East",
+          "sales": 3700,
+          "spend": 4000
+        }, {
+          "region" : "West",
+          "sales": 6000,
+          "spend": 3895
+        }, {
+          "region" : "South",
+          "sales": 4500,
+          "spend": 5500
+        }, {
+          "region" : "Central",
+          "sales": 5230,
+          "spend": 4200
+        }]
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: bottom
+    - isLayoutJsonDirty: false
+    - chartType: bar
+    - title: ''
+    - xAxis: |-
+        {{formatDataAsObject([{
+          "region" : "East",
+          "sales": 3700,
+          "spend": 4000
+        }, {
+          "region" : "West",
+          "sales": 6000,
+          "spend": 3895
+        }, {
+          "region" : "South",
+          "sales": 4500,
+          "spend": 5500
+        }, {
+          "region" : "Central",
+          "sales": 5230,
+          "spend": 4200
+        }]).region}}
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 6.4
+    col: 1
+    height: 7
+    width: 6
+createdAt: 2023-09-12T16:57:28.195Z

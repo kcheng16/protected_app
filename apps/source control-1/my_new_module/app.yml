@@ -1,0 +1,10 @@
+version: 43.0.9
+pageUuid: 6e4e85c6-518d-11ee-ba35-5b13d3b93895
+appTemplate:
+  experimentalPerfFeatures:
+    object:
+      useRuntimeV2: true
+      runtimeV2OptOut: false
+  isGlobalWidget: true
+  version: 3.12.0
+  experimentalDataTabEnabled: true
