@@ -1,0 +1,9 @@
+id: $customDocumentTitle
+type: setting
+subtype: DocumentTitle
+template:
+  ordered:
+    - value: saltedOS | Analytics
+style:
+  ordered: []
+createdAt: 2023-10-04T21:48:03.992Z

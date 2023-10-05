@@ -1,0 +1,39 @@
+version: 43.0.9
+pageUuid: ef8ed8f4-63b0-11ee-8f03-4304c1c95680
+appTemplate:
+  urlFragmentDefinitions:
+    - ordered:
+        - name: ''
+        - value: '{{.labels[.currentViewIndex]}}'
+  mobileAppSettings:
+    object:
+      mobileOfflineModeEnabled: false
+  appMaxWidth: 1560px
+  appThemeId: 1
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  preloadedAppJavaScript: ''
+  pageLoadValueOverrides:
+    - ordered:
+        - name: .currentViewKey
+        - value: >-
+            {{.labels.indexOf(urlparams.hash.main) < 0 ? 0 :
+            .labels.indexOf(urlparams.hash.main)}}
+  customDocumentTitle: Salted Analytics
+  experimentalPerfFeatures:
+    object:
+      batchCommitModelEnabled: false
+      skipDepCycleCheckingEnabled: false
+  isFetching: true
+  testEntities:
+    array:
+      - object:
+          id: bb320fe3-b13e-427e-b5f5-d1e2b5a17205
+          name: test1
+          body: ''
+          type: test
+          pauseAllQueries: false
+  customDocumentTitleEnabled: true
+  version: 3.16.0
+  markdownLinkBehavior: never
