@@ -1,10 +1,12 @@
 version: 43.0.9
 pageUuid: 75cf9e40-519a-11ee-98a8-e75f88b2b1a5
 appTemplate:
+  appMaxWidth: 1560px
   experimentalPerfFeatures:
     object:
       serverDepGraphEnabled: false
       useRuntimeV2: true
       runtimeV2OptOut: false
-  version: 3.6.7
+  customDocumentTitleEnabled: true
+  version: 3.16.0
   experimentalDataTabEnabled: true

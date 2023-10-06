@@ -1,0 +1,7 @@
+id: $customDocumentTitle
+type: setting
+subtype: DocumentTitle
+template:
+  ordered:
+    - value: this is a custom title
+createdAt: 2023-09-25T17:30:11.866Z

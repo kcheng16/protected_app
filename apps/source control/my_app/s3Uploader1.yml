@@ -1,0 +1,28 @@
+id: s3Uploader1
+uuid: c5f75890-6e1d-4911-be71-5400ef9c1ce3
+type: widget
+subtype: S3UploaderWidget
+template:
+  ordered:
+    - onUpload: ''
+    - fileExtension: ''
+    - s3FileName: ''
+    - s3ACL: ''
+    - s3Resource: null
+    - s3ContentType: ''
+    - generateNames: false
+    - label: upload to S3
+    - s3BucketName: ''
+    - s3ResourceName: ''
+    - s3FolderName: ''
+    - disabled: ''
+    - lastUploadedFileUrl: ''
+    - lastUploadedFileName: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 7
+    col: 1
+    height: 1
+createdAt: 2023-09-25T21:12:05.710Z
