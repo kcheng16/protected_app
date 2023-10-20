@@ -1,0 +1,20 @@
+id: myModule1
+uuid: 111511b6-c65e-4005-aedb-9a3968501cc1
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: my_module
+    - pageUuid: 8311a51c-518b-11ee-945f-bbc563be752f
+    - childNamespace: myModule1
+style:
+  ordered: []
+position2:
+  position2:
+    row: 11.8
+    col: 2
+    height: 2.4
+    width: 10
+createdAt: 2023-09-12T16:47:03.932Z
