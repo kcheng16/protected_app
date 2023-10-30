@@ -1,9 +1,0 @@
-version: 43.0.9
-pageUuid: dc1723fe-7746-11ee-8490-4356ab4d7838
-appTemplate:
-  experimentalPerfFeatures:
-    object:
-      useRuntimeV2: true
-      runtimeV2OptOut: false
-  version: 3.14.12
-  experimentalDataTabEnabled: true
