@@ -5,11 +5,14 @@ subtype: ImageWidget2
 template:
   ordered:
     - heightType: auto
+    - retoolStorageShowLegacyFiles: false
     - horizontalAlign: center
     - srcWidth: null
     - clickable: false
     - flipVertical: false
     - src: https://placekitten.com/400/300
+    - retoolFileObject:
+        object: {}
     - retoolStorageFileId: ''
     - marginType: normal
     - hidden: false
