@@ -21,7 +21,7 @@ template:
             - event: click
             - type: datasource
             - method: trigger
-            - pluginId: query1
+            - pluginId: my_get_request
             - targetId: null
             - params:
                 ordered: []

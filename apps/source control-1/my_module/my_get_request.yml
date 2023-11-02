@@ -1,4 +1,4 @@
-id: query1
+id: my_get_request
 type: datasource
 subtype: RESTQuery
 resourceName: a0b1f0ae-bf76-4792-8b18-67e36574f02b

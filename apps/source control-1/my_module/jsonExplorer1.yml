@@ -4,7 +4,7 @@ type: widget
 subtype: JSONExplorerWidget
 template:
   ordered:
-    - value: '{{query1.data}}'
+    - value: '{{my_get_request.data}}'
     - html: false
     - expandNodes: true
 style:
