@@ -2,10 +2,11 @@ id: query1
 type: datasource
 subtype: SqlQueryUnified
 resourceName: ae40bfc4-bfe8-4f0d-b0a6-4d63aab73d82
-resourceDisplayName: sql test
 template:
   ordered:
     - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - records: ''
     - lastReceivedFromResourceAt: null
     - databasePasswordOverride: ''
@@ -69,6 +70,7 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
     - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: |-
