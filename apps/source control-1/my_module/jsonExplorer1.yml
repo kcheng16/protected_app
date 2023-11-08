@@ -1,0 +1,19 @@
+id: jsonExplorer1
+uuid: 1b3808a7-83f5-41ad-b5a7-be5b5ec4bfed
+type: widget
+subtype: JSONExplorerWidget
+template:
+  ordered:
+    - value: '{{my_get_request.data}}'
+    - html: false
+    - expandNodes: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 9.4
+    col: 3
+    height: 6
+    width: 4
+createdAt: 2023-11-02T18:50:24.130Z

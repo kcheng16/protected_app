@@ -1,15 +1,16 @@
-id: query1
+id: my_get_request
 type: datasource
-subtype: SqlQueryUnified
-resourceName: ae40bfc4-bfe8-4f0d-b0a6-4d63aab73d82
+subtype: RESTQuery
+resourceName: a0b1f0ae-bf76-4792-8b18-67e36574f02b
+resourceDisplayName: httpbin-get-test protected
 template:
   ordered:
     - queryRefreshTime: ''
+    - paginationLimit: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
+    - body: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
@@ -19,9 +20,12 @@ template:
     - workflowParams: null
     - resourceNameOverride: ''
     - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
     - workflowRunId: null
     - showFailureToaster: true
-    - query: ''
+    - paginationEnabled: false
+    - query: get?my_key={{textInput1.value}}
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -29,23 +33,17 @@ template:
     - privateParams: []
     - runWhenPageLoadsDelay: ''
     - data: null
-    - recordId: ''
     - importedQueryInputs:
         ordered: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray: []
     - cacheKeyTtl: ''
-    - filterBy: ''
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
+    - cookies: ''
     - metadata: null
     - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -54,43 +52,40 @@ template:
 
         return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
+    - resourceTypeOverride: ''
     - watchedParams: []
     - enableErrorTransformer: false
-    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
     - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: |-
         // Query results are available as the `data` variable
-        return formatDataAsArray(data)
+        return data
     - events: []
-    - tableName: ''
-    - queryTimeout: '10001'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
+    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
     - workflowBlockPluginId: null
-    - databaseUsernameOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - bodyType: none
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-09-12T18:30:33.836Z
+createdAt: 2023-11-02T18:50:01.159Z
