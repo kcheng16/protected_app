@@ -1,0 +1,27 @@
+id: text1
+uuid: 6e87574b-d079-4ae8-ad3a-e496e7b8ec83
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '# This is the module'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 1.4
+    col: 2
+    height: 0.6
+createdAt: 2023-11-09T19:23:12.508Z
