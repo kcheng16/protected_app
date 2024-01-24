@@ -44,7 +44,7 @@ options:
   session_cookie_name: ''
   urlparams:
     - - my_test
-      - is successful
+      - '{{environment.variables.table_name}}'
   verify_session_url: ''
 outboundRegion: null
 port: null
