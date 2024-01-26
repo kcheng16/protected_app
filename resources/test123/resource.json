@@ -1,0 +1,24 @@
+{
+  "type": "postgresql",
+  "host": "123",
+  "port": "5432",
+  "databaseName": "",
+  "databaseUsername": "123",
+  "description": null,
+  "outboundRegion": null,
+  "ssl": false,
+  "editPrivilege": false,
+  "options": {
+    "authentication": "user_password",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "sshHost": "",
+    "sshPrivateKeyName": "",
+    "sshTunnelEnabled": false,
+    "sshUsername": "",
+    "version": "SqlQueryUnified"
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "4dd7f63e-9fb8-464c-be65-cf6f27677fc6",
+  "toolscriptVersion": "1.0.0"
+}
