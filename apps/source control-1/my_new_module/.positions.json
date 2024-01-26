@@ -1,0 +1,20 @@
+{
+  "chart1": {
+    "container": "moduleContainer",
+    "row": 6.4,
+    "col": 1,
+    "height": 7,
+    "width": 6
+  },
+  "moduleContainer": {
+    "height": 13.4,
+    "width": 12
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 3.6,
+    "col": 1,
+    "height": 0.6,
+    "width": 6
+  }
+}

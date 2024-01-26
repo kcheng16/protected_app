@@ -1,0 +1,14 @@
+{
+  "button1": {
+    "container": "table1",
+    "row": 0.4,
+    "col": 1,
+    "height": 1,
+    "width": 5
+  },
+  "table1": {
+    "row": 1.8,
+    "height": 8,
+    "width": 8
+  }
+}
