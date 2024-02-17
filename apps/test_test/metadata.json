@@ -1,0 +1,15 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "a095e496-cd27-11ee-9e4d-934659929117",
+  "appTemplate": {
+    "experimentalPerfFeatures": {
+      "object": {
+        "useRuntimeV2": true,
+        "runtimeV2OptOut": false
+      }
+    },
+    "version": "3.14.13",
+    "experimentalDataTabEnabled": true
+  }
+}
