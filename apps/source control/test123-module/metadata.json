@@ -3,14 +3,8 @@
   "version": "43.0.9",
   "pageUuid": "43a196e2-50c0-11ee-bee4-2374c705a3dc",
   "appTemplate": {
-    "experimentalPerfFeatures": {
-      "object": {
-        "useRuntimeV2": true,
-        "runtimeV2OptOut": false
-      }
-    },
     "isGlobalWidget": true,
-    "version": "3.12.0",
+    "version": "3.32.1",
     "experimentalDataTabEnabled": true
   }
 }
