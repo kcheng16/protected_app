@@ -4,6 +4,7 @@
     id="$main"
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
+    padding="8px 12px"
     sticky={null}
     type="main"
   >
