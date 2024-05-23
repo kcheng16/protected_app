@@ -3,7 +3,16 @@
     id="query1"
     query={include("./lib/query1.sql", "string")}
     resourceDisplayName="retool_db"
-    resourceName="142be613-6de8-4a02-9d59-5b9415abbb43"
+    resourceName="98145ce0-3a6f-41c9-83b8-1da6d5ec2205"
+    resourceTypeOverride=""
+    warningCodes={[]}
+  />
+  <SqlQueryUnified
+    id="new_query"
+    isMultiplayerEdited={false}
+    query={include("./lib/new_query.sql", "string")}
+    resourceDisplayName="retool_db"
+    resourceName="98145ce0-3a6f-41c9-83b8-1da6d5ec2205"
     resourceTypeOverride=""
     warningCodes={[]}
   />
