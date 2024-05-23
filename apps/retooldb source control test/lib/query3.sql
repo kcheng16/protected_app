@@ -1,1 +1,1 @@
-select * from users limit 1
+select * from users limit 2
