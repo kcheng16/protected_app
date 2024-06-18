@@ -36,7 +36,7 @@
         defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
         emptyMessage="No rows found"
         enableSaveActions={true}
-        hidden=""
+        hidden={'{{select1.value === "Option 1"}}'}
         primaryKeyColumnId="909e4"
         rowHeight="medium"
         showBorder={true}
