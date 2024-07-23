@@ -8,13 +8,14 @@
     sticky={null}
     type="main"
   >
-    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
     <Text
       id="text1"
       marginType="normal"
       value="# this is my app"
       verticalAlign="center"
     />
+    <Button id="button1" text="Button" />
     <Table
       id="table1"
       cellSelection="none"
