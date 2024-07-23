@@ -6,5 +6,6 @@
     resourceName="0235d600-3d1d-4715-ae2f-0c67fe160cf4"
     resourceTypeOverride=""
     version={1}
+    workflowBlockPluginId={null}
   />
 </GlobalFunctions>
