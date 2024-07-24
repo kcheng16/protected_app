@@ -1,0 +1,14 @@
+id: query36
+type: datasource
+template:
+  ordered:
+    - editorMode: sql
+    - runWhenModelUpdates: false
+    - queryTimeout: '120000'
+    - evalType: script
+createdAt: 2024-04-08T15:02:13.077Z
+blockData:
+  top: 656
+  left: 4656
+  pluginId: query36
+  incomingOnSuccessEdges: []
