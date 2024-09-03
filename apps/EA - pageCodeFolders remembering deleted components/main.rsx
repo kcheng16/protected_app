@@ -18,6 +18,7 @@
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
       emptyMessage="No rows found"
       enableSaveActions={true}
+      hidden=""
       primaryKeyColumnId="06ea1"
       rowHeight="medium"
       showBorder={true}
