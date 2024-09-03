@@ -3,6 +3,13 @@
   "version": "43.0.9",
   "pageUuid": "1387ac64-6a49-11ef-bc0b-33e9889e227b",
   "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "myRandomButton": {
+          "array": []
+        }
+      }
+    },
     "version": "3.69.1",
     "experimentalDataTabEnabled": true
   }
