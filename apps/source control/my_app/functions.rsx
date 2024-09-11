@@ -2,8 +2,8 @@
   <RESTQuery
     id="query1"
     query="get"
-    resourceDisplayName="protected_test_resource"
-    resourceName="0235d600-3d1d-4715-ae2f-0c67fe160cf4"
+    resourceDisplayName="my non protected resource"
+    resourceName="3ebe0af6-5f70-4456-be41-632eddb2006f"
     resourceTypeOverride=""
     version={1}
     workflowBlockPluginId={null}
