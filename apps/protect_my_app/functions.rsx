@@ -1,0 +1,10 @@
+<GlobalFunctions>
+  <RESTQuery
+    id="query1"
+    notificationDuration={4.5}
+    resourceDisplayName="my_protected_resource"
+    resourceName="690ec801-8917-41d9-9baf-748cb29bcb2a"
+    resourceTypeOverride=""
+    showSuccessToaster={false}
+  />
+</GlobalFunctions>
