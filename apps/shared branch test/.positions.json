@@ -1,3 +1,8 @@
 {
-  "image1": {}
+  "image1": {},
+  "text1": {
+    "row": 3.2,
+    "col": 4,
+    "height": 1
+  }
 }
