@@ -2,8 +2,8 @@
   <RESTQuery
     id="query1"
     query="get"
-    resourceDisplayName="protected_resource"
-    resourceName="b2ffde94-ec75-41db-87f3-691e20f5f2b1"
+    resourceDisplayName="resource2"
+    resourceName="504d3c91-3c98-4b72-b80a-7df7f874bd6f"
     resourceTypeOverride=""
   />
 </GlobalFunctions>
