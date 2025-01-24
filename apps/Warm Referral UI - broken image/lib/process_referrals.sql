@@ -1,0 +1,1 @@
+INSERT INTO retool.processed_inbound_referrals VALUES ({{processReferralIDInput.value}}, CURRENT_TIMESTAMP, {{processNewReferralStatusSelect.value}}, {{processClosedUnsuccessfulReasonSelect.value}}, {{processResourcesProvidedSelect.value.toString()}}, {{processNotesInput.value}});
