@@ -40,12 +40,6 @@
     "height": 0.6,
     "width": 10
   },
-  "image1": {
-    "container": "tabbedContainer",
-    "rowGroup": "header",
-    "height": 3,
-    "width": 2
-  },
   "processAssignedStaffMemberSelect": {
     "container": "processForm",
     "row": 9.2,
@@ -92,7 +86,6 @@
   "processModal": {
     "container": "tabbedContainer",
     "subcontainer": "4dc98",
-    "row": 0,
     "col": 10,
     "height": 1,
     "width": 2

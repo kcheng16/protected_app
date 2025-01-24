@@ -9,12 +9,6 @@
   showHeader={true}
 >
   <Header>
-    <Image
-      id="image1"
-      dbBlobId="f1c17550-c4f3-4992-b62a-04ba8bb3d369"
-      horizontalAlign="center"
-      src="https://www.houstonfoodbank.org/wp-content/uploads/2017/09/HFB_headerlogo_sm2.png"
-    />
     <Text
       id="containerTitle"
       value="#### HEC Referral Tool"
