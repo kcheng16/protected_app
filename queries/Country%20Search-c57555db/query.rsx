@@ -5,12 +5,15 @@
   resourceType={null}
 >
   <RESTQuery
-    importedQueryDefaults={{}}
-    importedQueryInputs={{}}
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    events={[]}
+    importedQueryDefaults={{ country_name: "" }}
+    importedQueryInputs={{ country_name: "" }}
     playgroundQueryId={0}
     playgroundQuerySaveId={0}
     privateParams={[]}
-    query="https://www.httpbin.org/get"
+    query="https://restcountries.com/v3.1/name/{{ country_name }}"
     queryTimeout="100000"
     transformer="// type your code here
 // example: return formatDataAsArray(data).filter(row => row.quantity > 20)
