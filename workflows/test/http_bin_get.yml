@@ -6,6 +6,8 @@ template:
   ordered:
     - queryRefreshTime: ''
     - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - body: ''
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
@@ -28,6 +30,8 @@ template:
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -64,6 +68,8 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: >-
         // type your code here

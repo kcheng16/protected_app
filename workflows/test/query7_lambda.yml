@@ -5,6 +5,8 @@ resourceName: JavascriptQuery
 template:
   ordered:
     - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
@@ -23,6 +25,8 @@ template:
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -59,6 +63,7 @@ template:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: |-
         // Query results are available as the `data` variable
