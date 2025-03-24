@@ -14,24 +14,6 @@
     "height": 1,
     "width": 1
   },
-  "moduleFolder1": {
-    "row": 3.2,
-    "col": 3,
-    "height": 2.4,
-    "width": 9
-  },
-  "moduleFolder2": {
-    "row": 16.6,
-    "col": 1,
-    "height": 2.4,
-    "width": 11
-  },
-  "moduleFolder3": {
-    "subcontainer": "sidebarFrame1",
-    "row": 8.8,
-    "height": 2.4,
-    "width": 1
-  },
   "moduleFolder4": {
     "row": 6.6,
     "col": 1,

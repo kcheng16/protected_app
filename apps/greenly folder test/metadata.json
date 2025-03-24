@@ -3,11 +3,11 @@
   "version": "43.0.9",
   "pageUuid": "70b3b62a-08d8-11f0-aabf-cfc8e3242928",
   "appTemplate": {
-    "preloadedAppJavaScript": "window.greeting = 'helo world'",
+    "preloadedAppJavaScript": "window.greeting = 'helo worldsss'",
     "pageCodeFolders": {
       "object": {
         "page2": {
-          "array": []
+          "array": ["folder1", "folder2"]
         },
         "page1": {
           "array": ["folder1", "folder2"]

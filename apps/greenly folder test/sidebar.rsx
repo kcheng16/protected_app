@@ -43,11 +43,6 @@
         waitType="debounce"
       />
     </Navigation>
-    <Module
-      id="moduleFolder3"
-      name="module folder"
-      pageUuid="8e17cbf2-08d8-11f0-95a6-071c3ca3c567"
-    />
   </Body>
   <Footer>
     <Avatar
