@@ -3,6 +3,17 @@
   "version": "43.0.9",
   "pageUuid": "70b3b62a-08d8-11f0-aabf-cfc8e3242928",
   "appTemplate": {
+    "preloadedAppJavaScript": "window.greeting = 'helo world'",
+    "pageCodeFolders": {
+      "object": {
+        "page2": {
+          "array": []
+        },
+        "page1": {
+          "array": ["folder1", "folder2"]
+        }
+      }
+    },
     "serializedLayout": null,
     "rootScreen": "page1",
     "version": "3.170.0",

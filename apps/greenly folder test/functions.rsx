@@ -1,10 +1,10 @@
 <GlobalFunctions>
-  <Folder id="folder1" />
+  <Folder id="appFolder" />
   <JavascriptQuery
-    id="query1"
+    id="appQuery1"
     notificationDuration={4.5}
     resourceName="JavascriptQuery"
     showSuccessToaster={false}
   />
-  <connectResource id="query2" _componentId={null} />
+  <connectResource id="appQuery2" _componentId={null} />
 </GlobalFunctions>
