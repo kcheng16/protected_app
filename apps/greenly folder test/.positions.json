@@ -1,11 +1,46 @@
 {
+  "avatar1": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
   "image1": {
     "row": 3.6
+  },
+  "image2": {
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 1,
+    "width": 1
   },
   "moduleFolder1": {
     "row": 3.2,
     "col": 3,
     "height": 2.4,
     "width": 9
+  },
+  "moduleFolder2": {
+    "row": 16.6,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  },
+  "moduleFolder3": {
+    "subcontainer": "sidebarFrame1",
+    "row": 8.8,
+    "height": 2.4,
+    "width": 1
+  },
+  "moduleFolder4": {
+    "row": 6.6,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  },
+  "navigation1": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.8,
+    "width": 1
   }
 }
