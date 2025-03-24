@@ -21,10 +21,5 @@
       horizontalAlign="center"
       src="https://picsum.photos/id/1025/800/600"
     />
-    <Module
-      id="moduleFolder5"
-      name="module folder"
-      pageUuid="8e17cbf2-08d8-11f0-95a6-071c3ca3c567"
-    />
   </Frame>
 </Screen>
