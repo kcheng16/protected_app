@@ -1,0 +1,13 @@
+{
+  "mixedChart1": {
+    "container": "moduleContainer",
+    "row": 3.6,
+    "col": 1,
+    "height": 7.6,
+    "width": 5
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  }
+}
