@@ -10,7 +10,7 @@
           "array": ["folder1", "folder2"]
         },
         "page1": {
-          "array": ["folder1", "folder2"]
+          "array": []
         }
       }
     },
