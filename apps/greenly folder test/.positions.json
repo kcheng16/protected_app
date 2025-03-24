@@ -14,6 +14,12 @@
     "height": 1,
     "width": 1
   },
+  "moduleFolder1": {
+    "row": 10,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  },
   "navigation1": {
     "subcontainer": "sidebarFrame1",
     "height": 0.8,
