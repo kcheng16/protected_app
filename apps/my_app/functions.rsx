@@ -1,9 +1,0 @@
-<GlobalFunctions>
-  <RESTQuery
-    id="query1"
-    query="json"
-    resourceDisplayName="my_resource"
-    resourceName="60f11f15-e009-4920-94d0-daab76f27d19"
-    resourceTypeOverride=""
-  />
-</GlobalFunctions>
