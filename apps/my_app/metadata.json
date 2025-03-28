@@ -3,6 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "1a159ffa-cd19-11ee-a762-336948679f39",
   "appTemplate": {
+    "shortlink": "shortlink",
     "version": "3.114.1",
     "experimentalDataTabEnabled": true
   }

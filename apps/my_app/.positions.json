@@ -1,8 +1,13 @@
 {
   "jsonExplorer1": {
-    "row": 2.4,
+    "row": 2.6,
     "col": 1,
     "height": 6,
     "width": 4
+  },
+  "text1": {
+    "row": 1.6,
+    "col": 1,
+    "height": 1
   }
 }
