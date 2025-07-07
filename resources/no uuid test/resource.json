@@ -10,7 +10,7 @@
   "ssl": null,
   "editPrivilege": null,
   "options": {
-    "baseURL": "",
+    "baseURL": "https://www.httpbin.org",
     "headers": [["", ""]],
     "urlparams": [["", ""]],
     "auth0_domain": "",
@@ -46,6 +46,6 @@
   },
   "environment": "production",
   "dynamicallyQueryable": false,
-  "uuid": "NULL",
+  "uuid": "12345",
   "toolscriptVersion": "1.0.0"
 }
