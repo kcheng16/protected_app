@@ -1,0 +1,113 @@
+{
+  "name": "test",
+  "theme": {
+    "_migrated": true,
+    "automatic": [
+      "#fde68a",
+      "#eecff3",
+      "#a7f3d0",
+      "#bfdbfe",
+      "#c7d2fe",
+      "#fecaca",
+      "#fcd6bb"
+    ],
+    "borderRadius": "4px",
+    "canvas": "#111113",
+    "danger": "#dc2626",
+    "defaultFont": {
+      "fontWeight": "400",
+      "size": "12px"
+    },
+    "h1Font": {
+      "fontWeight": "700",
+      "size": "36px"
+    },
+    "h2Font": {
+      "fontWeight": "700",
+      "size": "28px"
+    },
+    "h3Font": {
+      "fontWeight": "700",
+      "size": "24px"
+    },
+    "h4Font": {
+      "fontWeight": "700",
+      "size": "18px"
+    },
+    "h5Font": {
+      "fontWeight": "700",
+      "size": "16px"
+    },
+    "h6Font": {
+      "fontWeight": "700",
+      "size": "14px"
+    },
+    "highlight": "#fde68a",
+    "info": "#3170f9",
+    "labelEmphasizedFont": {
+      "fontWeight": "600",
+      "size": "12px"
+    },
+    "labelFont": {
+      "fontWeight": "500",
+      "size": "12px"
+    },
+    "modeIds": [
+      "625f9e35"
+    ],
+    "modeMap": {
+      "625f9e35": {
+        "id": "625f9e35",
+        "label": "Dark",
+        "theme": {},
+        "tokenValues": {
+          "435fff80": {
+            "type": "colorToken",
+            "value": "rgba(40, 0, 250, 1)"
+          },
+          "df915b0b": {
+            "type": "colorToken",
+            "value": "#FFFFFF"
+          },
+          "e4ec12d4": {
+            "type": "colorToken",
+            "value": "rgba(235, 29, 29, 1)"
+          }
+        }
+      }
+    },
+    "primary": "#3170F9",
+    "secondary": "",
+    "success": "#059669",
+    "surfacePrimary": "#19191b",
+    "surfacePrimaryBorder": "",
+    "surfaceSecondary": "#19191b",
+    "surfaceSecondaryBorder": "",
+    "tertiary": "",
+    "textDark": "#0d0d0d",
+    "textLight": "#ffffff",
+    "tokens": [
+      {
+        "id": "e4ec12d4",
+        "type": "colorToken",
+        "label": "Color 1",
+        "value": "#FFFFFF"
+      },
+      {
+        "id": "435fff80",
+        "type": "colorToken",
+        "label": "Color 2",
+        "value": "#FFFFFF"
+      },
+      {
+        "id": "df915b0b",
+        "type": "colorToken",
+        "label": "Color 3",
+        "value": "#FFFFFF"
+      }
+    ],
+    "warning": "#cd6f00"
+  },
+  "type": null,
+  "version": "1.0.0"
+}
