@@ -15,10 +15,7 @@ template:
   functionDescription: null
   successMessage: ''
   queryDisabled: ''
-  instructions: >-
-    You are a helpful assistant chatting with {{ current_user.firstName }} {{
-    current_user.lastName }}. Their email is {{ current_user.email }}, and the
-    date is {{ new Date() }}.
+  instructions: use the call sql function
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
@@ -152,6 +149,20 @@ template:
       handlerTimeout: 10000
       id: 22008ac3-ed70-45bc-a4b1-aa456341f022
       description: new function
+    - id: 32824b36-d223-49e3-9960-1f53c58b90c3
+      name: call sql
+      description: call sql
+      approvalRequired: false
+      handlerTimeout: 10000
+      params: []
+      handler:
+        type: function
+        functionId: 7b412167-ab95-42de-9cca-90107ac2c6b6
+      metadata:
+        type: custom
+        iconName: Tool
+        iconColor: gray
+        isGeneratedFunction: false
   changesetIsObject: false
   providerName: openAI
   enableCaching: false
