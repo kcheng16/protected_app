@@ -80,15 +80,4 @@ template:
   updateSetValueDynamically: false
   notificationDuration: ''
 createdAt: 2025-10-29T02:30:03.465Z
-blockData:
-  top: 40
-  left: 40
-  uuid: 768e7d35-6034-482f-ac0c-acdf34096a5c
-  options:
-    subflowId: bf07b649-101f-455b-bf76-1a62de302f5a
-    parameters: []
-  pluginId: function2
-  blockType: function
-  editorType: RESTQuery
-  resourceName: REST-WithoutResource
-  incomingOnSuccessEdges: []
+blockData: {}

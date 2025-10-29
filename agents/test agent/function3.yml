@@ -1,11 +1,13 @@
-id: startTrigger
+id: function3
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -18,10 +20,13 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: false
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: ''
   showFailureToaster: true
-  query: return null
+  paginationEnabled: false
+  query: null
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -31,11 +36,11 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
   queryRunTime: null
   changesetObject: ''
@@ -51,35 +56,39 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
-  evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '10000'
+  queryTimeout: 10000
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-24T07:17:26.395Z
+createdAt: 2025-10-29T02:42:45.970Z
 blockData:
-  top: 48
-  left: 48
-  uuid: 676dcfb5-497b-4b77-8e0b-6a963a1d486d
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
+  top: 40
+  left: 40
+  uuid: db14f1df-7f11-4053-a6cd-ebddd047333d
+  options:
+    subflowId: 7b412167-ab95-42de-9cca-90107ac2c6b6
+    parameters: []
+  pluginId: function3
+  blockType: function
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
   incomingOnSuccessEdges: []
