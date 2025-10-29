@@ -2,7 +2,6 @@ id: code1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
-resourceDisplayName: JavaScript Query
 template:
   ordered:
     - query: return "Hello world"
