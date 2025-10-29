@@ -1,4 +1,4 @@
-id: function1
+id: function2
 type: datasource
 subtype: RESTQuery
 resourceName: REST-WithoutResource
@@ -66,7 +66,7 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '10000'
+  queryTimeout: 10000
   workflowId: null
   requireConfirmation: false
   type: GET
@@ -79,18 +79,15 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-29T02:07:03.150Z
+createdAt: 2025-10-29T02:30:03.465Z
 blockData:
   top: 40
   left: 40
-  uuid: 120b7d99-8f75-4ba8-ae11-8159d443ba6e
+  uuid: 768e7d35-6034-482f-ac0c-acdf34096a5c
   options:
-    subflowId: 7e0d7228-aa10-48a4-9d9c-c045ec38a5db
-    parameters:
-      - id: f8fdd4a5-ed1a-427d-9196-23dda659fb82
-        name: param1
-        exampleValue: ''
-  pluginId: function1
+    subflowId: bf07b649-101f-455b-bf76-1a62de302f5a
+    parameters: []
+  pluginId: function2
   blockType: function
   editorType: RESTQuery
   resourceName: REST-WithoutResource

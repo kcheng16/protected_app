@@ -122,20 +122,36 @@ template:
         JavaScript: return [1, 2, 3].map(x => x * 2);
 
         Python: result = [x * 2 for x in [1, 2, 3]]
-    - id: ed2384c6-e827-4940-b05d-f9a2da220471
-      name: test workflow
-      description: workflow
+    - draft: null
       approvalRequired: false
-      handlerTimeout: 10000
       params: []
       handler:
         type: workflow
         workflowId: 9acb8480-a2bd-4c24-a39d-efc7a6aadf68
+      name: test workflow
       metadata:
-        type: custom
         iconName: RetoolWorkflow
         iconColor: gray
+        type: custom
         isGeneratedFunction: false
+      handlerTimeout: 10000
+      id: ed2384c6-e827-4940-b05d-f9a2da220471
+      description: workflow
+    - draft: null
+      approvalRequired: false
+      params: []
+      handler:
+        type: function
+        functionId: bf07b649-101f-455b-bf76-1a62de302f5a
+      name: new function
+      metadata:
+        iconName: Tool
+        iconColor: gray
+        type: custom
+        isGeneratedFunction: false
+      handlerTimeout: 10000
+      id: 22008ac3-ed70-45bc-a4b1-aa456341f022
+      description: new function
   changesetIsObject: false
   providerName: openAI
   enableCaching: false
