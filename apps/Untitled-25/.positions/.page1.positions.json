@@ -2,13 +2,15 @@
   "image1": {
     "row": 4
   },
-  "image2": {
+  "keyValue1": {
     "row": 4.2,
-    "col": 4
+    "col": 3,
+    "height": 8.6
   },
-  "image3": {
+  "keyValue2": {
     "row": 4.2,
-    "col": 8
+    "col": 6,
+    "height": 8.6
   },
   "text1": {
     "row": 1.8,
