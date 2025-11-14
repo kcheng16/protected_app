@@ -1,3 +1,5 @@
 version: 1.0.0
 name: STAGING RELEASES
-apps: []
+apps:
+  - uuid: ba76cd6a-c11a-11f0-9d05-1fb8e92e7a45
+    release: 1.0.0
