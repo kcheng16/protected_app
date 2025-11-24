@@ -17,5 +17,6 @@
     type="main"
   >
     <Text id="text1" value="# Initial protect" verticalAlign="center" />
+    <Text id="text2" value="# commit and merge #1" verticalAlign="center" />
   </Frame>
 </Screen>
