@@ -1,0 +1,25 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "97da46b2-aa20-11f0-87d7-078b3629b01c",
+  "appTemplate": {
+    "appThemeId": 15,
+    "pageCodeFolders": {
+      "object": {
+        "Sa": {
+          "array": []
+        },
+        "Sale": {
+          "array": []
+        },
+        "SaleID": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "sparke-theme",
+    "version": "3.284.5",
+    "experimentalDataTabEnabled": true
+  }
+}
