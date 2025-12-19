@@ -15,11 +15,6 @@
       overflowType="hidden"
     >
       <Text id="text1" value="# my test module 2" verticalAlign="center" />
-      <Text
-        id="text2"
-        value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-        verticalAlign="center"
-      />
     </ModuleContainerWidget>
   </Frame>
 </App>
