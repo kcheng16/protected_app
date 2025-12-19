@@ -3,6 +3,8 @@ name: STAGING RELEASES
 apps:
   - uuid: 01f09f86-c134-11f0-9357-d3708576c7de
     release: 2.0.0
+  - uuid: 65b893e0-dcb2-11f0-a26e-7b4c880dd181
+    release: latest
   - uuid: 81643012-c949-11f0-82d5-f31196e06a6d
     release: latest
   - uuid: 97da46b2-aa20-11f0-87d7-078b3629b01c
