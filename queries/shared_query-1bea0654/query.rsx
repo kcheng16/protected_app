@@ -1,0 +1,18 @@
+<PlaygroundQuery
+  id="shared_query"
+  adhocResourceType={null}
+  data={null}
+  resourceType="restapi"
+>
+  <RESTQuery
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    events={[]}
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    queryTimeout="100000"
+    retoolVersion="3.284.6"
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
