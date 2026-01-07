@@ -1,0 +1,19 @@
+<PlaygroundQuery
+  id="shared_query"
+  adhocResourceType={null}
+  data={null}
+  resourceType="restapi"
+>
+  <RESTQuery
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    events={[]}
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    query="https://www.httpbin.org/get?env=staging"
+    queryTimeout="100000"
+    retoolVersion="3.284.6"
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
