@@ -126,4 +126,4 @@ version: 43.0.9
 workflowId: 9acb8480-a2bd-4c24-a39d-efc7a6aadf68
 description: null
 workflowTemplate:
-  version: 3.284.2
+  version: 3.300.0
