@@ -1,0 +1,93 @@
+id: query1
+type: datasource
+subtype: RESTQuery
+resourceName: REST-WithoutResource
+template:
+  queryRefreshTime: ''
+  paginationLimit: ''
+  allowedGroupIds: []
+  streamResponse: false
+  body: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
+  workflowRunExecutionType: sync
+  headers: ''
+  showFailureToaster: true
+  paginationEnabled: false
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  cookies: ''
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  version: 2
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  type: GET
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  bodyType: none
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2026-04-16T02:47:08.041Z
+blockData:
+  top: 64
+  left: 1456
+  uuid: 3ce0024d-9ab7-4258-8b34-2dd74bcfc874
+  pluginId: query1
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges:
+    - 5a7b7de2-db43-4fa8-9a23-f9c4d68afca6
