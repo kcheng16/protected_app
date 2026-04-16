@@ -1,4 +1,4 @@
-id: startTrigger
+id: wait1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -37,6 +37,7 @@ template:
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
+  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -60,7 +61,7 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '10000'
+  queryTimeout: '120000'
   workflowId: null
   requireConfirmation: false
   queryFailureConditions: ''
@@ -71,15 +72,20 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-04-16T02:15:54.328Z
+createdAt: 2026-04-16T02:18:38.437Z
 blockData:
-  top: 48
-  left: 48
-  uuid: 6b3e7daf-7db9-472b-a7aa-5c10a7cfbc25
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
+  top: 64
+  left: 992
+  uuid: 5a7b7de2-db43-4fa8-9a23-f9c4d68afca6
+  options:
+    waitType: duration
+    durationUnits: seconds
+    durationTemplateString: '10'
+  pluginId: wait1
+  blockType: wait
   editorType: JavascriptQuery
   isMinimized: false
   resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - 02431bf2-48a6-4539-8c4c-175b119dff20
