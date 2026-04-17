@@ -1,13 +1,11 @@
-id: query1
+id: code2
 type: datasource
-subtype: RESTQuery
-resourceName: REST-WithoutResource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
 template:
   queryRefreshTime: ''
-  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
-  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -20,13 +18,10 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
-  paginationPaginationField: ''
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  headers: ''
   showFailureToaster: true
-  paginationEnabled: false
-  query: ''
+  query: //multi instance release
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -36,11 +31,11 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
+  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
-  cookies: ''
   metadata: null
   queryRunTime: null
   changesetObject: ''
@@ -56,14 +51,11 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
-  paginationDataField: ''
   timestamp: 0
-  openAPIParams: '{}'
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
-  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
@@ -71,24 +63,22 @@ template:
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
-  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
-  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-04-16T02:47:08.041Z
+createdAt: 2026-04-17T00:30:49.933Z
 blockData:
-  top: 64
-  left: 1456
-  uuid: 3ce0024d-9ab7-4258-8b34-2dd74bcfc874
-  pluginId: query1
-  blockType: default
-  editorType: RESTQuery
-  resourceName: REST-WithoutResource
+  top: -208
+  left: 544
+  uuid: 87e42696-9b4c-4ab1-b490-e32eed237b16
+  pluginId: code2
+  blockType: code
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 5a7b7de2-db43-4fa8-9a23-f9c4d68afca6
+    - 6b3e7daf-7db9-472b-a7aa-5c10a7cfbc25
