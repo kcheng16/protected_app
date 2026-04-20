@@ -21,7 +21,9 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: //multi instance release
+  query: |-
+    //kenny-workflows - 
+    // NO multi instance release
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
