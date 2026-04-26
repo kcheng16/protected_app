@@ -1,6 +1,11 @@
 {
+  "table1": {
+    "row": 0.2,
+    "height": 8,
+    "width": 8
+  },
   "text1": {
-    "row": 3.6,
+    "row": 8.2,
     "col": 4,
     "height": 0.6
   }
