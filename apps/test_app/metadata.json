@@ -4,7 +4,6 @@
   "pageUuid": "8ab179e0-51b9-11ee-a026-936b8a90c254",
   "appTemplate": {
     "appMaxWidth": "1560px",
-    "version": "3.22.3",
-    "experimentalDataTabEnabled": true
+    "version": "3.334.2"
   }
 }
