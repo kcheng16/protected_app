@@ -20,7 +20,7 @@
     <Text id="text1" value="# test app" verticalAlign="center" />
     <Text
       id="text2"
-      value="# edit from mytestbranch-1"
+      value="# edit from mytestbranch-2"
       verticalAlign="center"
     />
   </Frame>
