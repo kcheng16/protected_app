@@ -23,5 +23,6 @@
       value="# edit from mytestbranch-2"
       verticalAlign="center"
     />
+    <Text id="text3" value="# Adding change to commit" verticalAlign="center" />
   </Frame>
 </Screen>
