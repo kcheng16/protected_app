@@ -1,2 +1,5 @@
 version: 1.0.0
 name: kenny-workflows-manifest
+apps:
+  - uuid: 9c1173de-4298-11f1-8303-d36c89cdcb7b
+    release: latest
