@@ -3,3 +3,5 @@ name: localhost manifest
 apps:
   - uuid: 9c1173de-4298-11f1-8303-d36c89cdcb7b
     release: latest
+  - uuid: e4942a6c-70ff-11f1-89bd-97e124386cd2
+    release: latest
