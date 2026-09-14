@@ -1,0 +1,1 @@
+return {{ textInputTotalCents.value?.length > 0 ? textInputTotalCents.value : undefined }}

@@ -1,0 +1,182 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "0580c8fe-bfd3-11eb-abc6-a38238801047",
+  "appTemplate": {
+    "urlFragmentDefinitions": [
+      {
+        "ordered": [
+          {
+            "name": "id"
+          },
+          {
+            "value": "{{ idSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "uuid"
+          },
+          {
+            "value": "{{ uuidSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "shipment_id"
+          },
+          {
+            "value": "{{ shipmentIdSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "listing_id"
+          },
+          {
+            "value": "{{ listingIdSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "buyer"
+          },
+          {
+            "value": "{{ buyerSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "seller"
+          },
+          {
+            "value": "{{ sellerSearchTransformer.value }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "tracking_code"
+          },
+          {
+            "value": "{{ trackingCodeSearchTransformer.value }}"
+          }
+        ]
+      }
+    ],
+    "appMaxWidth": "1920px",
+    "pageCodeFolders": {
+      "object": {
+        "currentHost": {
+          "array": []
+        },
+        "textInputUUIDs": {
+          "array": []
+        },
+        "textInputIDs": {
+          "array": []
+        },
+        "queryRecordsTransformer": {
+          "array": []
+        },
+        "queryRecordsSortInput": {
+          "array": []
+        },
+        "queryRecordsSortByInput": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "pageLoadValueOverrides": [
+      {
+        "ordered": [
+          {
+            "name": "textInputIDs.value"
+          },
+          {
+            "value": "{{ urlparams.hash.id }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textInputUUIDs.value"
+          },
+          {
+            "value": "{{ urlparams.hash.uuid }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textinputShipmentId.value"
+          },
+          {
+            "value": "{{ urlparams.hash.shipment_id }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textinputListingId.value"
+          },
+          {
+            "value": "{{ urlparams.hash.listing_id }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textinputBuyer.value"
+          },
+          {
+            "value": "{{ urlparams.hash.buyer }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textinputSeller.value"
+          },
+          {
+            "value": "{{ urlparams.hash.seller }}"
+          }
+        ]
+      },
+      {
+        "ordered": [
+          {
+            "name": "textinputTrackingCode.value"
+          },
+          {
+            "value": "{{ urlparams.hash.tracking_code }}"
+          }
+        ]
+      }
+    ],
+    "version": "4.34.2"
+  }
+}
