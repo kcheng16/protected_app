@@ -1,0 +1,31 @@
+private: false
+customLibraries:
+  array: []
+name: testestest
+setupScripts:
+  object:
+    python:
+      object:
+        codeString: ''
+    javascript:
+      object:
+        codeString: ''
+hasProtectedTriggers: false
+triggerWebhooks:
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        headers: '{}'
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: ''
+        examplePathParams: ''
+version: 43.0.9
+workflowId: cbc8a405-bc37-45d6-86ba-fdfea5c1392f
+description: ''
+workflowTemplate:
+  version: 4.34.2
